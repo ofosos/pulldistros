@@ -11,7 +11,7 @@ here = path.abspath(path.dirname(__file__))
 setup(
     name='pulldistros',  # Required
 
-    version='0.1',  # Required
+    version='0.2',  # Required
 
     description='Scrape distrowatch.com',  # Required
 
