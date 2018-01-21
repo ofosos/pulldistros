@@ -40,6 +40,6 @@ setup(
 
     py_modules=['pulldistros'],
 
-    install_requires=['bs4', 'requests', 'html5lib']
+    install_requires=['bs4', 'requests', 'requests_cache', 'html5lib']
 
 )
