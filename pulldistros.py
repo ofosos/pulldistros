@@ -14,7 +14,8 @@ def distros():
 
     dists = []
 
-    sels = soup.select('select[name=distribution] option[value]')
+    first_sel = soup.find('select', attrs={'name': 'distribution'})
+    sels = first_sel.select('option[value]')
     for s in sels:
         if s['value'] != '' and s['value'] != 'all':
             dists.append(s['value'])
